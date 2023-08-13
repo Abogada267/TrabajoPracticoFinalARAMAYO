@@ -8,19 +8,20 @@ import Products from './components/Products/Products';
 
 function App() {
   return (
-      <DataProvider>
+    <DataProvider>
       <Router>
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/cart' element={<CartContent />} /> {/* Utiliza <CartContent /> como elemento */}
-        <Route path='/' element={<Products />} />
-      </Routes>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/cart' element={<CartContent />} /> {/* Utiliza <CartContent /> como elemento */}
+          <Route path='/products' element={<Products />} /> {/* Por ejemplo, muestra los productos en una vista separada */}
+        </Routes>
       </Router>
-      </DataProvider>
+    </DataProvider>
   );
 }
 
 export default App;
+
 
 
 

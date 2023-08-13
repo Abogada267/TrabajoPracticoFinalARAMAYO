@@ -1,9 +1,10 @@
-import { useContext } from 'react';
+/* eslint-disable no-unused-vars */
+import React, { useContext } from 'react'; // Asegúrate de que React esté importado correctamente
 import { DataContext } from '../Context/DataContext';
 import "./CartContent.css";
 
 const CartElement = () => {
-    const {cart} = useContext(DataContext);
+    const { cart } = useContext(DataContext);
 
     return cart.map((product) => {
         return (
@@ -14,10 +15,10 @@ const CartElement = () => {
             </div>
         );
     });
-
 };
 
 export default CartElement;
+
 
   
 

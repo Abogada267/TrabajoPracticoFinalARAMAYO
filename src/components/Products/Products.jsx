@@ -7,11 +7,22 @@ const Products = () => {
     const { data, cart, setCart } = useContext(DataContext);
 
     const buyProducts = (product) => {
-        console.log(product);
-        setCart([...cart, product])
+        const productRepeat = cart.find((item) => item.id === product.id);
+
+        if (productRepeat) {
+            const updatedCart = cart.map((item) =>
+                item.id === product.id ? { ...item, quanty: item.quanty + 1 } : item
+            );
+            console.log('Updated Cart:', updatedCart); // Agregar este console.log
+            setCart(updatedCart);
+        } else {
+            setCart([...cart, { ...product, quanty: 1 }]);
+        }
+
+        console.log('New Cart:', cart); // Agregar este console.log
     };
 
-   
+    console.log('Current Cart:', cart); // Agregar este console.log
 
     return (
         <div className="product-card-container">
@@ -28,3 +39,5 @@ const Products = () => {
 };
 
 export default Products;
+
+
