@@ -13,3 +13,16 @@ text-align: center;
 .cartTotal {
     text-align: center;
 }
+.cart-messe-center{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.counter-button {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cart-delete-button {
+    cursor: pointer;
+}
