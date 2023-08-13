@@ -13,7 +13,7 @@
     width: 300px;
     padding: 20px;
     text-align: center;
-    background-color: white;
+    background-color: white(228, 19, 19);
     border-radius: 10px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 }
@@ -29,7 +29,7 @@
 }
 
 .card h4 {
-    color: rgb(7, 225, 153);
+    color: rgb(12, 14, 13);
 }
 
 .card button {

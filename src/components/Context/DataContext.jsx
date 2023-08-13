@@ -11,9 +11,23 @@ const DataProvider = ({ children }) => {
 
   useEffect(() => {
     axios("data.json").then((res) => setData(res.data));
-  },[]);
+  }, []);
 
-  return<DataContext.Provider value={{ data, cart, setCart}}>{children}</DataContext.Provider>;
+  const buyProducts = (product) => {
+        const productrepeat = cart.find((item) => item.id === product.id);
+
+        if (productrepeat) {
+            setCart(cart.map((item) =>
+                (item.id === product.id ? { ...product, quanty: productrepeat.quanty + 1 } : item)));
+           }else {
+            setCart([...cart, product ]);
+        }
+
+        
+    };
+
+
+  return<DataContext.Provider value={{ data, cart, setCart, buyProducts}}>{children}</DataContext.Provider>;
 };
 
 DataProvider.propTypes = {
