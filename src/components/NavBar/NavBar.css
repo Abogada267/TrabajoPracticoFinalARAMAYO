@@ -7,19 +7,20 @@
     display: flex;
     justify-content: space-between;
     height: 15vh;
-    background-color: black;
+    background-color: rgb(242, 239, 22);
 }
 .navbar-logo{
     justify-self: start;
-    margin-left: 20px;
-    color: white;
+    margin-left: 15px;
+    color: rgb(14, 13, 13);
     margin-top: 4vh;
-    cursor: pointer;
+    cursor:auto;
+    
 }
 .seecarrito{
-    font-size: 25px;
-    margin-right: 20px;
-    margin-top: 4vh;
+    font-size: 40px;
+    margin-right: 30px;
+    margin-top: 20vh;
     cursor: pointer;
     text-decoration: none;
     }
