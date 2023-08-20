@@ -1,12 +1,12 @@
 /* eslint-disable no-unused-vars */
 import React, { useContext } from 'react';
-import { DataContext } from '../Context/DataContext'; // Asegúrate de importar el DataContext correctamente
+import { DataContext } from '../Context/DataContext';
 import NavBar from '../NavBar/NavBar';
 import CartElement from "./CartElement";
 import CartTotal from './CartTotal';
 
 const CartContent = () => {
-  const { cart } = useContext(DataContext); // Corrige la sintaxis aquí
+  const { cart } = useContext(DataContext); 
 
   return (
     <>
