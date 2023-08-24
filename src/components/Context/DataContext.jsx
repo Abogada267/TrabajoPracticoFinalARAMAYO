@@ -18,7 +18,7 @@ const DataProvider = ({ children }) => {
 
         if (productrepeat) {
             setCart(cart.map((item) =>
-                (item.id === product.id ? { ...product, quanty: productrepeat.quanty + 1 } : item)));
+                (item.id === product.id ? { ...product, quantity: productrepeat.quantity + 1 } : item)));
            }else {
             setCart([...cart, product ]);
         }
@@ -35,4 +35,3 @@ DataProvider.propTypes = {
 };
 
 export default DataProvider;
-

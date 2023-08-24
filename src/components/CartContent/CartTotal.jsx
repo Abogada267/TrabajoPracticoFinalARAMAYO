@@ -1,5 +1,6 @@
+/* eslint-disable no-unused-vars */
 import React, { useContext } from 'react';
-import { DataContext } from '../Context/DataContext'; // Asegúrate de importar el DataContext correctamente
+import { DataContext } from '../Context/DataContext';
 import "./CartTotal.css";
 
 const CartTotal = () => {
@@ -7,7 +8,7 @@ const CartTotal = () => {
 
   const calculateTotal = () => {
     const total = cart.reduce((acc, product) => {
-      return acc + product.price * product.quanty;
+      return acc + product.Price * product.quantity;
     }, 0);
 
     return total;
@@ -22,5 +23,7 @@ const CartTotal = () => {
 };
 
 export default CartTotal;
+
+
 
 

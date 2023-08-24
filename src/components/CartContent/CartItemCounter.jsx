@@ -9,10 +9,10 @@ const CartItemCounter = ({ product }) => {
   const decrease = () => {
     const productRepeat = cart.find((item) => item.id === product.id);
 
-    if (productRepeat.quanty !== 1) {
+    if (productRepeat.quantity !== 1) {
       setCart((prevCart) =>
         prevCart.map((item) =>
-          item.id === product.id ? { ...item, quanty: item.quanty - 1 } : item
+          item.id === product.id ? { ...item, quantity: item.quantity - 1 } : item
         )
       );
     }
@@ -23,7 +23,7 @@ const CartItemCounter = ({ product }) => {
       <p className="counter-button" onClick={decrease}>
         -
       </p>
-      <p>{product.quanty}</p>
+      <p>{product.quantity}</p>
       <p className="counter-button" onClick={() => buyProducts(product)}>
         +
       </p>

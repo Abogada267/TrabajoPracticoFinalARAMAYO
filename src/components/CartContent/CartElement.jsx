@@ -23,7 +23,7 @@ const CartElement = () => {
      <img src={product.image} alt="product-cart" />
     <h3 className='name'>{product.name}</h3>
     <CartItemCounter product={product} />
-    <h4 className='price'>{product.Price * product.quanty}$</h4>
+    <h4 className='price'>{product.Price * product.quantity}$</h4>
 <h3 className='cart-delete-button' onClick={()=> deleteProduct (product.id)}>❌</h3>
             </div>
         );
