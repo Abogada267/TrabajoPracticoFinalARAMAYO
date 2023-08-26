@@ -5,15 +5,14 @@ import NavBar from "../NavBar/NavBar";
 import Products from '../Products/Products';
 
 const Home = () => {
-    return (
+       return (
         <> 
-            <NavBar/>
-            <Banner />
+    <NavBar />
+     <Banner/>
 <div className="product-cart-container">
-                <Products />
+                <Products/>
             </div>
-            
-        </>
+             </>
     );
 };
 
