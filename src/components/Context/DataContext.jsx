@@ -38,9 +38,9 @@ const DataProvider = ({ children }) => {
   const filteredData = categoryId
     ? data.filter(prod => prod.category === categoryId)
     : data;
-
+  console.log(cart);
   return (
-    <DataContext.Provider value={{ data: filteredData, cart, setCart, buyProducts }}>
+    <DataContext.Provider value={{ data: filteredData, cart: cart, setCart: setCart, buyProducts: buyProducts }}>
       {children}
     </DataContext.Provider>
   );
@@ -51,3 +51,4 @@ DataProvider.propTypes = {
 };
 
 export default DataProvider;
+
