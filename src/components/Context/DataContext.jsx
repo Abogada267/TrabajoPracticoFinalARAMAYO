@@ -24,7 +24,7 @@ const DataProvider = ({ children }) => {
   };
 
   useEffect(() => {
-    axios("./data.json")
+    axios.get('../public/data.json')
       .then((res) => {
         setData(res.data);
       })
@@ -38,7 +38,7 @@ const DataProvider = ({ children }) => {
   const filteredData = categoryId
     ? data.filter(prod => prod.category === categoryId)
     : data;
-  console.log(cart);
+
   return (
     <DataContext.Provider value={{ data: filteredData, cart: cart, setCart: setCart, buyProducts: buyProducts }}>
       {children}
@@ -51,4 +51,3 @@ DataProvider.propTypes = {
 };
 
 export default DataProvider;
-

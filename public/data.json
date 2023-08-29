@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Vista de Legajo",
         "Abogado": "Dra. Aramayo Malvina-Dr. Lopez Molinas",
-        "Price": 8200,
+        "price": 8200,
         "image": "https://www.ramospapeleria.com.ar/img/p/13440/1f33ef7d0ff0448abd8374a33fa85546.jpeg?quality=95&width=800&height=800&mode=max&upscale=false&format=webp",
         "quantity": 1,
         "category": "simple"
@@ -13,7 +13,7 @@
         "id": 2,
         "name": "Analisis de Legajo y estrategia a proponer",
         "Abogado": "Dra. Aramayo Malvina-Dr. Lopez Molinas",
-        "Price": 12300,
+        "price": 12300,
         "image": "https://as2.ftcdn.net/v2/jpg/05/10/33/15/1000_F_510331521_kNQlhpZyCHXfroeGEndcuWmiZBbBftUx.jpg",
          "quantity": 1,
          "category": "simple"
@@ -22,7 +22,7 @@
         "id": 3,
         "name": "Seguimiento de Procesos judiciales penales",
         "Abogado": "Dra. Aramayo Malvina-Dr. Lopez Molinas",
-        "Price": 24000,
+        "price": 24000,
         "image": "https://www.misabogados.com/hubfs/Im%C3%A1genes%20WEBP/demanda-civil.webp",
          "quantity": 1,
          "category": "compleja"
@@ -32,7 +32,7 @@
         "id": 4,
         "name": "Intervencion Juicios abreviados",
         "Abogado": "Dra. Aramayo Malvina-Dr. Lopez Molinas",
-        "Price": 54000,
+        "price": 54000,
         "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExMVFhUXGRgYGBgYFR0VGhcYGhcYHxYXGBkYHSggGBolHRUYIjEhJSkrLi4uFx8zODMuNygtLisBCgoKDg0OGxAQGyslICUtLi0tMjAuLSsrLS8tLy8tLS8vLS0tLS0vLS8tLS0tLS0tKy0tLS0tLS0tLS0tLS0tLf/AABEIAKgBLAMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABwIDBAUGAQj/xABLEAACAQIDAwgGBAwEBAcAAAABAgADEQQSIQUGMRMiMkFRYXGBBxSRobHBQlJykiMzNFRic4KTssLR8BU10uFDRFOiFiRjlLPi8f/EABoBAQADAQEBAAAAAAAAAAAAAAABAgMEBQb/xAAzEQABAwMCAwYFBAIDAAAAAAABAAIRAyExBBJBUXETYYGRsfAFIjKh0RRCwfEz4SMkUv/aAAwDAQACEQMRAD8Aj+JeweEeq4SmhdjwAF/PuHeZ2uyfR6TZsRUt+hT1Pm509g84RcJeZmC2TXq/i6NRx2hTl+8dPfJb2fu7haNslFLj6TDO3ta9vKbRjCKKsLuLjG6SpT+09z/2Xm1w/o4b6eIA7lp395PynS0t4QaTVeTIVbfTUnVwvAajj1ibfEVstNntfKpa3C9he0o2oxwkHv8AX8Loq6StSdte2DJGQbiJFicbh585jk6Po8w46VSq3mq/yzMp7jYIcUc+NRvkRLzbyWR3NM81VfpggqzADUDmnncCJeXb10ZinODBAAwYFzwAfh1a9kp29Pn7v+FufhmqH7OIGW5Md+PmFxYcTlUJujgh/wABfNmPxaXl3awY/wCWpfdB+MobbhQVRVp5WpgGynMGBIC69WrAT3FbUq0qed6SgllUDPfRgdW06rCSazBJ5ZsbdVQaCuSAALkAfM35pAPy3vYgkiQJuVdG7+E/NqP7tf6T3/AML+bUf3a/0lh9rVbqFSm10NQ2Y8FZhZdNTzR74G28wuqi3ItVF+OZSwI06rrxjtmewVJ+HVxeB5jvzeRMGJzCund3Cfm1H7glp91cGf8Al08rr8DMOtvKRQSoEGcsQRrYCwN7XuNHX2y/j9uMgq2Ccx0XUE6EEkm2ulurtkfqGZ94J/haD4VqpA25JGeIcGnw3OF+V1bqbk4I/wDCI8Kj/MzErej7CnotVX9oH4rMzEbddeSayOjKWcor2C8oVuua3DTiJ7jtsVRTqVU5OyVHWxBN1BXKQQ2vHWR+oZB7r/yg+F6iQDAkwDPGdsYsZ4G+FocR6OPqYj71P5hvlNVitwsWvR5Op9l8p9jAD3zu6uLrcoKQNPOEzsxDZTzrWUcR1a2mXsXGmtRWoQAdQQOF+Bt3TQPBMe7Z8pXNU0z2MFQkEGMG8HdtMWsdpjjzAUPY7Y+Io/jKNRR25SV+8Lj3zBk+zT7T3awte+ekA31k5je0cfO8uudQ1E6veHcmrQBqUiatMakWs6jtIHSHePZOUhEiIhEibLYmxKmKLZSqqvSZmAtoCekQAOcNSfKdHgN1sKdFaviTex9Xo1Ky37C/4NEmZqAHbkrsp6Go5ge4hoOCT+AfCYnhK4qJJJ3Npga4DGAdoVCfuq5aafFbq4Zjlp1no1Dwp4hGw7N4CrcHzKwakZBVhod9qdRpPKT+I8SQFx0TYbW2LWw5PKobDXMBpbqJHUO8XHfNfLggiQuWrSfSMPEe/I9RIXQej7/MsJ+s/lafSE+b/R9/mWE/WfytJ725tPkEFrFjwBBOg6bBRq5UXbIvOIBtwlgJWRMCSs7E4hKalnYKACxJ6gOkfACavG7fWnSetkYqr5ASVXOQ5Vyuv0crcbXy6cZpcPgalc8tVCohFNmeplJADZ8qMpsRZnTMDlZKi3uVYG7Rr4emUFBOXCmyscQoV6mWzCkrNlerZtSABduN7y0BZbiV1CYoHUag2se0G3O8NZcp1Qbd/Dhr7Joqe10KhaFEsiqt7laK076LS52vKfo2sNLkXEy8Hj6VY2VhygPPpkryiWuGVlB0N+vgeIJ0lVcOW2iYyOb21Pb3dw7bdf8AYmTIVlGm7Gx0w1BQoGdgC7dbMRfj2C+gm3nB7o75oEWhiTlKgKtQ8CBwD9hHbw7e/ukcEAggg8CDcHwMKVXKTPZ7CLnqW7jLRajyi2IHOFIXHPDam9zwt3Xm0TDPyb03qBiwYA5ctgVt2m/WePXM2Jm2kxuOmThddbXV6xl5Bvu+luYAJkCbwJEwYuCtTV2EpoGjoMwUMwQAsRbU693b1wdhrlamHYKWDpYAcm3WV7j2TM2ni+SpNU00W4B4E8FHmSJqW25UFFnKoKiPlYWJFjwIAa/Dv6jM3CkyxGB9rrroP11YbqbsvGSPrJbe/I7R3SAIDiDk/wCBKwqco5dqgy3IAsAQVyi1hqAfKe1NksyZWqu1mVlJAuMt7WA0PHr7Jhnbrmln/Bj8KKZNmy5SpObKTmA04ESmptypyVJrIC7Mp5jMCFtZlF81jfh3Sm+jyOO/n171uNP8RkGQPmgfTALWzYbbCGgQ3gIIWfU2PmKk1agIXKSpCllLMSDZbfStp2S7/hCaWLKOTakALdFr3Oo6Ws1uJ2zUp5g1r5Kb07KRfMVU80m51J07Flb7XdPWA+W9NKdrC13ZOvXhmMtupSbdfAH8FZdlrtrYdY4AgTuLRYbRxqAYEGQBZX33epHNq3OVEOo0CBBcaaE8mt/GXq+xkbPdmGdlbQgWKg9HTTjNYdtVOQqc5TUSoFuAMpU9Y9/slVbbFWmKyMFZ6bUwGtYc/rIueFpXfRAxaJx3H7wCtDR+IOcB2kkGBfvpwcREmmczYGMrbLs5b3LO5yspznNmDElg2mvG0spsWkKTUedkJzHUXvp5fREo2fiKorNRqMr2XPmC5ba2ykA2m2mzWMd+3mL/AH9yvPq1a9Jw+fO1wImObSJAIuTYgEXWFjNmJUYE5gQCLoShyniCesS/hMMlNAijKq8B/fEy9EuGNB3AXWBrVCwUy4lowJsPd0nkTHxmMp0lzVHVF7WNvZ2yyyWRIY3qpouLrLTtlD8BwBsMwH7V50+8W/lwaeFBF9DVYWP7C9XifZ1zgyYRIJidF6P9iDGY+lScXpperUHaiEWU9xdkB7iYRdZ6PNwEZFxWN0Wpl5Kgxsr36DVgekTfm0z1HW5Nll+nTCgKoAA0AAsAOwAcJaxeGSojI6hkYWIPC3y8eqV4ellVVuzZQBdjdjYcWPWe+EkrXjGj100eUW/IB+TzC/4wjPl426rzNxuDp1UKVUV0PFXUMD5GaYbLo+vmpk5/Jipmuc2a5Tjfhl0y8O6bzEUs6st2W4IupysL9anqPfJRR/vHsMYek1WgGr4VC3KUA2d6Fic9TDMbkFTfNSNwdeFrSP6mwqSVBVUrUo1FzUyBdDc9JQeieor1G/nI++WxaoOHFGnVOFpqVNPDvkZWvo+W4L6eJvftvOHTAYaiORSsaJF2FHEpUoML8SitmWxy9oBtOSsInaD/AAvf+GVZ2mq5pAJIBkuBxOOPXHhGn3DTLtTDr2V2A8Bnt7rSbcdsmo9XVi1J2Ga1gVy6rdWuNCoAdMrC442uIX3OIO2KJBuOW0I+xr77jyk67yuRha+W+ZqbItuOdxlS3ZzmGs6mEwCvC1LGtqPbwBd9itfRqCtasRnpLUdaVNQMo5MsnKt9Y5gbDgAwNri8rTAk1EqAU2Rn5TLUX8JTJHPNMnqLKpsRca6nQC01Aqa1DD8mVK3ak2ZFplhqabop0Ohy5eJuD1DGweIrVqKU1o1KLWCPXqXUDSxekr892bW2ZQBe5vaxsL3BssCS2ARf1/11VGw6hNPE5DT/AB9yah5gUgc4+zS3XLzizjDvTqMeUzcuqZStVjfOh1CKLgW10FjfW+j2VsxVFXJZlFUUjRZ8vKJTymkUY6CqrHS+jZiD1EbnD4qsalSqlJkWlSCH1jOraZiaiqilHuAo0YHm62uIeIJP342SmRtAIPTgt1sbFljVpuQalF8jkaZrqrI+XqJVgD1XBtNrOY2VTC16NQXPLU6uZ9AalTNTYFgCbAKHCi5sLjx6eQYyFZs4K+T5m7N2vXoH8FVZO4G6nxU6H2TCiQrrtcB6RKo0q0kfvUlD7DcE+yb3Cb+4RulylM/pJmHtS8i2IRTTht4MK/RxFLwLBT7GsZsKdQN0SD4G/wAJA09Q24aeGkIpy2hglrIEfNlzBiBYXt9E3B0/pMN936JzBcyhstwhAF1NwRcGx/rIjpbUrr0a9UeFRh85lU95cYOGJq+bZv4ryhpscZIXRT1VamNrHkD7cOHUA9RaFLA2RT6y7HOKhZiCzML9I21GvCUnYtPQAuAGzKFa2Qn6pGoGgkXDe3G/nDfdQ/FZWN8cd+cH93T/ANEjsmcgp/W6iZ3nz8PS3nzUo1tlU2NNnBY08tiTc6W6R+lwHGeV9kUnZmYElipPO0OUWGnZIvO+OO/OD+7p/wCiUne7G/nDfcQfyyezYcj3j0sqt1NZsbXERi557vWD1ClGrsWi2bmWDAAhTlBsbjReBv1y4myqIRkFMENqQdST23ve/npImfefGHjiKnkQPgJjPtfEsLmvXIvYnlHtfs42kik3MDy5odVW27S90WMSYkRB6iBHKLKY8Js+nRuVXLm4m9ybcBckm3dPMRtWgnTrUl8XUfOQlUqs3SYnxJPxlsCS1oaICzfUfUcXPJJPEkk+ZkqXcTvlgk/4ub7Cs3vtb3zT4v0jUx+KoO3e7BB7BmkdxJVF02O35xdTRWSkP0F1+81/dac7iMQ9Rszszt2sSx9pluIRIiIReEyTfQQAa+LbiRTogftNVv8AwLI92UAa9O/a3/xtO4p7SVGWo9NqbucgrYbNQdmAzZW5MZKmmtmXXXWZuqhrtsLvoaB1aiaocBBi9uAOSe/+1MOCxjuSHw9WlbgXakQe4cnUY+201g2/U9aq0PVapWmFIIyXqZvpqGcfgx0b6m972trp/R7vBUxJro1Tl6dPJkrFVVrtmvTfk+YWACnTUZteIM7mXBkSFyVabqTyx2R79+RUd7P3pqPtFkdMj5hSWiVu/JZumxVjY6mpm1XKMvHnSRJTkF7217ZVAUPLTG0RYeJ5+KwMfjKiEBMPVq3HFGpADuPKVFPskUenZB6xhD1tSrA+CvTy/wAbSZpA3pi2mKu0OTUgihTVD9tue49hp+YMsFRaf0ff5lhP1n8rT6E2nh+Uo1KY4sjKO4kGx8jafPfo+/zLCfrP5Wn0hIUFcq9WsKAqDEOSSiKOTQVTVzZRTqsebYMbNZRoGN5t8Lhq2a9asj9GypTNMAqbg8521N9fAcLa4u1dk1Cc9CoFbOlQowujuluBGtMsBlJ1FtbX1lFbGtmFTkawqhcopsUVdesvmy5b9ept1dUsb4VBY3larY+EpMuIqVSF5Ou5ViSApstiQCL6gaTOFWsTQHrSvTqXVHp0gQzBSVFXMzZwyq2q5dQO0SnBYY0MyOFr06qg1cuU2qWtUujHnU2FrAXItw10uvhqlbklor6vSpNnDOgJYhSFVEDaAZr3brUaEXk8ZUXDQL+z5K9gKTnEsz1DU5NMlwgRFdiCVQanNlVbkk9JQLazfTFwOFWkgRbniSSbliSSzMeskknzmVKlXaIC+T4iJCskREIkREIkTIweBqVTanTZz15Re3ieAlqrSZTlZSpHEMCCPIyYMSongqIiJClIiIRSJulsbA0aa1cW9FqrgMEdgwpqRdbp9a2puNPj3tFaFWllUU3pMLWFihHWLDSRtujhKTUQ7KrPcg3s1hc206uE6jZOLSjXszZVqqbjgo5JSS5/Z08BPM1mmY7c5jnFwveItcwBcQJMzwxcketToObRFQxBj78z/EeKi3bmEWliK1JDdUqMq+APA9pHDymDL+Pr8pVqVB9N3f7zE/OWJ6TQQBObel/uvKOUiIkqEiJtdh7EbE57OFy24gm979nhFuJhXp03VHBrRJK1V4nuJolHZG4qSD5GUibVKW0SCqcYKydnVQtVGY2AJueoXVxr5mdTsbblM1GoliEJUo6HUOmqVaf6aNfTgwzDgTOOhl/v5jsM5X0g47uK7tPrjSpGkWgtJk8yCIju5ggWMcJB+gdl7c9YUYarUFLEMAQ6aLiKf0qmGY8CQDcdJDfsBnVYegqIqKLKoCqOwAWAnzrsrefKvJYlBVpXBub6MODjLzkcWHOXsFxpO92JvY4Ucji1qp1JigWYfojEUgSfGopMjtNtn29FY6HtJdpjuHL9w8PY5EqSfWxyvJWObJnv1WzWt46SvE4daiMji6sCrDtB4zj6e9jZs5w+HL2y5lx9Hhe9udlNr90xdo724llshwmHv9M1WxZH2UpIFv4tbulu0ZzWI0WoJgMM+B9FsN69512bhQrVOWxDBhRVukwvzWqW4qotdtM1u0yAatRmZndizsSzMeLMxJZj3kkmZu3mLYiozV2rsdWqN0jqbA20XSxCjgDaYEuCCJCwq03U3ljshdB6Pv8AMsJ+s/lafSE+b/R9/mWE/WfytPpCFRJF++9CicW5dcGWypflK1ZH6I6S0zlHd3SUJpdv7D9YQ5GWlV0tUNFKp0vzWDg3XXqtLsMFZVW7mxEqKfVcN/09m/8AuMT/AKpK+6aqMHRCimFy6ckzMnE9Evzj5zRbJ3RxC1A1fE0nQG5RcLSXN3Fsmg8PbOyp0goCqAoHAAWA8AOEtUdNpn30CzoU9t9seAHoSrkREyXQvk+JkeqHtEeqHtEK0LHiZHqh7RHqh7RCQseVJa4ve1xe3G3Xbvl18MQL3lgGFC6E+kwUG5Ohh0yUyVW7nUDQGwXr4+cxcZvimOpsj0QjrZkZWzXOYAqbqLXDE/szb7Jx9OuopNRwoZcx/DcCCzECmMvAA9vlNft7alNgKSUqQyBwTT1S5KENTNhrzCOHWeM2L3FziQMAE2wJj1K3OkpNph4fbhY54+nLgtDERMVgkREIszZe0atFiaR1bSxFwezSdXvTh+XCcm6l1zAi9g1wLhTwJ04XnI7PpZqtNe1lHvkj5VK2sMvC1uzqtOnT6drzvM+FvfTzlaDUPbSNLgY8ONupUY1KZUkMCCOIIsRKZ1G8+AAsRc3vYniP0Sesa6X1E5ciUrUTTPccFZAykRExUpOv3ExQ/CUjYHRh2nqI8tPaZyEy9k4J6tVUQkG4OYfQAOr+I6u+0gs3/KOK2oV+weKnAZ6Ld774bKylUsrEszW6VQ9RPHgvDhrOZkl4XYVG2WoGrE/Squahv2i5sv7IE4zenZIw9bKt8jDMt+rWxW/XY/ETpfQqU6YDossamsp6iqXMBHWP4WniInOiTy2t+B7RofaNZ7EIr64yqOFWp94n4y1UqM3SZn7ixI9l7SmJAAF4Wrq9Vwhz3EdT+V4BPYiSsl6DbhKuWb6zfeMoiEVfLN9ZvvGOWb6zfeMoiEVfLN9ZvvGOWb6zfeMoiEVfLN9ZvvGOWb6zfeMoiEWziIkKyREQiuUVBYAi4M3Wz93xV1CKq/WI+HbNdsSkHr01bgW19hkk004AWHUOoTpoUQ8FzsBc9aqW2GVH+MwLYVqlWphUqYQWW3GsTey1FA0AJJ0JGh8pk4LdyrVZzXpUqYYBqZp6qo0HJsNGDAW1t1Gb/f8AU08I+upKW++v9Jh4neoJiEocizFuTswZQOeBrY66X901pNo1WCowy04zCPqVw3syLgnlPDj/AHlcTtfZj4eoUcED6J6mHaDMCS7tTZyV6ZpuNDwPWp6mHfIr2hg2o1GpvxU28ewjuIsZjWo7DbCmlV3jvWNERMFqs3Yn5RS+2JIhHWPPv/3kdbGP4el9tfjJHnfo/pPVUcrOKw61FKtwPuPUROI2pgCrFT0h/wBw6jO7Ok1O8mHugccVNj4H/e3tnbta8bHYKquEiX8UtmPtlGHw7u2VFLHsAv8A/k8WowscWngtRdU06ZYhVBJJsAOsmSNu9skYenY6u2rt8FHcP6zA3X2AaJ5SqBynBRe+UdZ+0f74zIrbfX1mlQp2N3AduIHHmjvvxPl4YtqP7QCmYPNem3S0aVBz9U2ZGPeD38BeeC6GjT6zOV9ItDmUanYzL94XH8B9s7CaTfOhnwlTtXK3sIv7iZ7NcbmFfN0oa4QoyiInlL0UiIhEiIhEiIhEiIhEiIhEiIhEiIhFs8w7Z5ea+mt+Hxl3kz/ZhSFl3EXmJyZ/szM3fq0qWJpvX0QEm/EBrc0kDqBt7pBsFZolwExK2WxVKV6burKoNySp7DOy2XtDlnewsoC2HXre5Ps90V3w+JUWrAjiLOB7jxlWytlmiX5wYNa2luF/6y2m1IDocYC11Xw95bNMbu8Z8vfetT6Ra59WUE3zVFHkFc/ITL2Ts6jVp0K7UwanJ0yG14hRbS9jaXN6tjnE0cqkB1YMt+HYQfIn2TMwFFaVNKa3sihQT3dfGdw1OnGHABcZ0OqLY2OmTwWlrb0LSxNSjVHNDLlccFBUE5vM8e/umBvzs7OBiF4qAr2+rfmt5X9hHZL21N2Vq16lapVCoxFgNDooGpOg4d8yhtLB0afJGsjKAVtn5Qkdml/ZPNr6lznQ0yJ8Mr09LoGspntmhpIsSRI8MAeXHmo6iHdbnLwubXOtr6X8p5nHaJdcCydntarTPY6H/uEkuRXyltbjTWSzh8NUcAqjEEAjQ21752aV4aHbiBjNlVwJwrMw1Ic1KDcbXH2GvYjwOnkJvKexax+iB4sPlec5vfR9Vr4V2YXJYNlv+Luua/b0jLP19EWY8E91/T8q7KJkbgY8vVYm1tj4SlkqVmcCwXKPpnU3Nhe/sltd6qFJctGibeSA+PEnzmwr16VemtMAZa61Mp61qJr/AFPl3yPwZ5v+Ulzpn3yXp16h00djtAIyBJwOJzYg444W+2hvVWqAquWmDpzblrfaPDyAmu2I1sRRP/qJ/EJhSqnVKEMvFSGHiDcfCaMAaRC86rVfVMvMlTNLGOocpTdPrKy+0ESN8LvdtKrUSmgpZ3ZUUZAOcxAHFjbUzZ1MRtRlBTEUrkEoV5MipZXZQt0JGdKVRkzAXydV56hqtXn/AKd/cuTiM5Op4nU+J48InlrtSIiESIiESIiESIiESIiESIiESIiEU2ZR2CMg7B7J7EKVaxGiMQBcAkadgkbrvliu2n+7EkjF/i3+y3wMhdOqFC7jCbxV2RSStyPqCe4je9qI56h2bogWQC3SufMW0mo2d+LXw+ZnKbxqRiHv1hSPCw/3l6f1XUEAqUdh75YbEVOSLigcpYvXZaVO4IGUOTqTfQW1sZhv6QcOCQEqnKSL2WxseK87UaSJonRI5DyVOzHM+akPGb7VmctRKimeiHQZhoL317byz/4yxXbT/dicThBz1m2nO8QVcCFKm6mPevhxUqWLZmGgtoLW0m4yjsnO7g/kg+2/ynRyisq6FIMwFuP9mbuYGzKepbs0mxnh/Eam6qG/+R6+wu3TNhs80kUelirfFU1+rSB+87/6ZK8iL0qD/wA6P1KfxVJX4f8A5x0KnUfQuU9ZfKFzHKpJA7CeJHslqInvLhJJykNE8aaUhLwqle4esyMroSrKQykcQQbg+0TeYne/EPT5MLQQAEApSCstwwOUknLpUcacA7BbXmhnk7iASoVQnsCJ5zslWSIiQiREQiREQiREQiREQiREQiREQim2IiFKtYv8W/2W+BkR7Jw6uTm6h4SXMX+Lf7LfAyGaFVl1UkG0KF01KmFAA4CcvvdTtURu1bew/wD2mR69U+uZr9sVWcKWJNifeP8AaWZ9SKnd+ir11DAEWbQi44S5vLQVKwCqFGUGwFus9kxNlVCtS6mxsZXteqWcFjc5R8TNP3Iqti0MzOT9FGbz0t85mTD2UxAexsDYHvmZM35RSVuD+SD7b/KdHOc3B/JB9t/lOjlVK3GDSyDv19s5f0kbWqUsMVpMVZ2CMw0IUqScp6jpxnWUeiPAfCcF6UT+BH61f4GniaRoq6hzn3iT9wu2sS2mAPdl2mx8by1ClVH00Vj3EgXHkbicH6W8Cb0a4GljTbuPSX+b2TY+izaofDthyedSJIHajG/uYn2idJvHssYnDVKPWw5p7HGqH2geRMyb/wBbU3wD9j/pWP8AyUlA0T1lIJBFiNCDxBHEGeT6BeekpMqlE6tMMlQVUJTKgJSRL06gc4hCqlnspBlU56zdruqBIiJkpSIiESIiESIiESIiESIiESIiEU2xEQpVrF/i3+y3wMhZeEmnF/i3+y3wMhZeEKF7MfHLdD3WPvmVSpliFUEsSAANSSeAEv7X2XVo82qhTMDa9iCPEG2kkZRaPZ3T8j8pVtLpDw+Zmx/w6nTKmniErFgbqikFTpYHU3vqPKZmO3dK2OJqrhjlugcZjU43tZtLacfrCWLxun8/2r9m7dt49R64987LVbPXmeJP9PlMmW6CWUDulyVJkqikrcH8kH23+U6Oc5uD+SD7b/KdHIUrd4for4D4SP8A0lPegD21R/C07svakD+iPhOB9In5Mv6xf4Wnm/D2fM9/fH8/hdOodZoXC7K2jUw9Va1I2ZT5Edat2gybt39tU8XRFWn4Mp4o3Wp+R6xIGm03f23VwlUVKZuODoeDr2HsPYer2g7avSis2R9Qx39xWdKrsN8LceknZHI4o1FHMrDOO5x+MHts37RnJyUd78fh8bs7lUcZlKsoNsytwZGF/qk+NgReRdL6RzjSAcCCLeSis2HSON/fivDPBPTCz0abttMlYr2emeROcWUqgiVKZ6RKQbTpLu0Z3hQqoiJzKUiIhEiIhEiIhEiIhEiIhEiIhFIP/jYf9Bv3g/pLmH3zQsA1JkXrbMGtp2AXPZ5xEKVVtHe2lltTVnzBgfo5dNOkNePukejDN2e+IhQsjZ71KNVKqgZkIIvwPcZXvbtfEY11BphKaXygG4JNszM2l+A06rTyJIMIsPA4NqTKy9JSDe/WDcaeIm33qx7Y3ky9JUZAwzByb5rX04AXHee+exAJyphc3hsNVVsuW493iDM71duz3xEEyoXY7pbcp0KJpVQRZiQRzr36rAaWt75m43fFQSKSZuFmYkA6a821+M9iA7aZiVKo2bvi5bLXIyW0yg6Hq0udJgb4baTEU1p0gTzgxY6WsCLWI74iHEE2AHTCkknJXJert2e+PV27PfESFVZKqVFlGvWZjHDt2REu+q54AOBjkPcIAFjPha/UV8NPnMhMM1hca+MRK7iRCL31duz3x6u3Z74iQiert2e+YjYB3a7CyjQC/HvnsSQYRZXqzdnvhqDDX5xEhFaiIhEiIhEiIhEiIhEiIhEiIhF//9k=",
          "quantity": 1,
          "category": "compleja"
@@ -42,7 +42,7 @@
         "id": 5 ,
         "name": "Intervencion en Juicios por Jurados",
         "Abogado": "Dra. Aramayo Malvina-Dr. Lopez Molinas",
-        "Price": 12300,
+        "price": 123000,
         "image": "https://phantom-elmundo.unidadeditorial.es/b8d19ea58c48265c586f42a3ba19e54c/resize/700/f/webp/assets/multimedia/imagenes/2020/02/18/15820544347321.jpg",
          "quantity": 1,
          "category": "compleja"
@@ -51,7 +51,7 @@
         "id": 6,
         "name": "Tipos de tramites",
         "Abogado": "Dra. Aramayo Malvina-Dr. Lopez Molinas",
-        "Price": 8200,
+        "price": 8200,
         "image": "https://www.casi.com.ar/sites/default/files/styles/listado/public/GUIA%20AGO.jpg?itok=FZIzcbNW",
         "quantity": 1,
         "category": "tiposdetramites"        
@@ -60,7 +60,7 @@
         "id": 7,
         "name": "Demandas",
         "Abogado": "Dra. Aramayo Malvina-Dr. Lopez Molinas",
-        "Price": 8000,
+        "price": 8000,
         "image": "https://queleerlibros.com/wp-content/uploads/2018/12/11-libros-que-no-fueron-escritos-por-sus-%E2%80%9Cescritores%E2%80%9D.png",
         "quantity": 1,
         "category": "escritos"        
@@ -70,7 +70,7 @@
         "id": 8,
         "name": " Contestacion de Demandas",
         "Abogado": "Dra. Aramayo Malvina-Dr. Lopez Molinas",
-        "Price": 8000,
+        "price": 8000,
         "image": "https://www.mejoreslibros.top/wp-content/uploads/2021/08/Mejores-libros-para-escritores.jpg",
         "quantity": 1,
         "category": "escritos"        
@@ -80,7 +80,7 @@
         "id": 9,
         "name": "modelo",
         "Abogado": "Dra. Aramayo Malvina-Dr. Lopez Molinas",
-        "Price": 8000,
+        "price": 8000,
         "image": "https://enredaccion.com.ar/wp-content/uploads/2018/09/cd-arce-1600x1055.jpg",
         "quantity": 1,
         "category":"modelo"        
