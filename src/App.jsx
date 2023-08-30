@@ -12,7 +12,7 @@ function App() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    axios.get('/data.json') // Corrige la ruta del archivo JSON
+    axios.get('/data.json') 
       .then((res) => {
         setData(res.data);
       })
@@ -27,14 +27,22 @@ function App() {
         <AppLayout>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/cart" element={<CartContent />} /> {/* Usa CartContent en lugar de DataProvider */}
-            <Route path="/category/:categoryId" element={<CategoryProducts />} />
+            <Route path="/cart" element={<CartContent />} />
+            <Route path="/" element={<CategoryProducts greeting={"Todos nuestros Productos"} />} />
+            <Route
+  path="/category/:categoryId"
+  element={({ params }) => (
+    <CategoryProducts categoryId={params.categoryId} greeting={`Productos filtrados por categoría: ${params.categoryId}`} />
+  )}
+/>
           </Routes>
         </AppLayout>
       </DataProvider>
+      
     </BrowserRouter>
   );
 }
 
 export default App;
+
 

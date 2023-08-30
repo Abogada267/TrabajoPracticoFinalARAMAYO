@@ -1,20 +1,28 @@
 /* eslint-disable no-unused-vars */
 import PropTypes from 'prop-types';
-import React, { useContext } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { DataContext } from '../Context/DataContext';
 import '../Products/Products.css';
 
-const CategoryProducts = () => {
+const CategoryProducts = ({ categoryId }) => {
   const { data, buyProducts } = useContext(DataContext);
 
-  if (data.length === 0) {
-    return <p>No hay productos disponibles.</p>;
-  }
+  const [filteredProducts, setFilteredProducts] = useState([]);
+  
+  useEffect(() => {
+    if (categoryId) {
+      const filtered = data.filter(product => product.category === categoryId);
+      setFilteredProducts(filtered);
+    } else {
+      setFilteredProducts(data);
+    }
+ }, [data, categoryId]);
 
   return (
     <div className="container">
+      <h2>{`Productos filtrados por categoría: ${categoryId}`}</h2>
       <div className="row justify-content-center">
-        {data.map(product => (
+        {filteredProducts.map(product => (
           <div className="col-md-4 mb-4" key={product.id}>
             <div className="card">
               <img src={product.image} className="card-img-top" alt="Product" />
@@ -32,8 +40,7 @@ const CategoryProducts = () => {
 };
 
 CategoryProducts.propTypes = {
-  products: PropTypes.array.isRequired,
+  categoryId: PropTypes.string.isRequired, 
 };
 
 export default CategoryProducts;
-
