@@ -24,7 +24,7 @@ const DataProvider = ({ children }) => {
   };
 
   useEffect(() => {
-    axios.get('../public/data.json')
+    axios.get('data.json')
       .then((res) => {
         setData(res.data);
       })

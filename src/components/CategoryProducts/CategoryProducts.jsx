@@ -2,13 +2,14 @@
 import PropTypes from 'prop-types';
 import React, { useContext, useEffect, useState } from 'react';
 import { DataContext } from '../Context/DataContext';
+import { db } from '../Firebase/Config';
 import '../Products/Products.css';
+
 
 const CategoryProducts = ({ categoryId }) => {
   const { data, buyProducts } = useContext(DataContext);
-
   const [filteredProducts, setFilteredProducts] = useState([]);
-  
+
   useEffect(() => {
     if (categoryId) {
       const filtered = data.filter(product => product.category === categoryId);
@@ -16,7 +17,14 @@ const CategoryProducts = ({ categoryId }) => {
     } else {
       setFilteredProducts(data);
     }
- }, [data, categoryId]);
+  }, [data, categoryId]);
+
+  const unsubscribe = db.collection('products')
+    .where('category', '==', categoryId || '')
+    .onSnapshot(snapshot => {
+      const productsData = snapshot.docs.map(doc => doc.data());
+      setFilteredProducts(productsData);
+    });
 
   return (
     <div className="container">
@@ -40,7 +48,8 @@ const CategoryProducts = ({ categoryId }) => {
 };
 
 CategoryProducts.propTypes = {
-  categoryId: PropTypes.string.isRequired, 
+  categoryId: PropTypes.string.isRequired,
 };
 
 export default CategoryProducts;
+
