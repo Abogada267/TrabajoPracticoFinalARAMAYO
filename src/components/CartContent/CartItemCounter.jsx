@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import React, { useContext } from "react";
-import { DataContext } from "../Context/DataContext";
+import { DataContext } from "../ItemListContainer/ItemListContainer.jsx";
 
 const CartItemCounter = ({ product }) => {
   const { cart, setCart, buyProducts } = useContext(DataContext);

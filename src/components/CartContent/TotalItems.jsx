@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { useContext } from 'react';
-import { DataContext } from '../Context/DataContext';
+import { DataContext } from '../ItemListContainer/ItemListContainer.jsx';
 
 const TotalItems = () => {
     const { cart } = useContext(DataContext);

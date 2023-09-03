@@ -1,8 +1,8 @@
 /* eslint-disable no-unused-vars */
 import PropTypes from 'prop-types';
 import React, { useContext, useEffect, useState } from 'react';
-import { DataContext } from '../Context/DataContext';
 import { db } from '../Firebase/Config';
+import { DataContext } from '../ItemListContainer/ItemListContainer.jsx';
 import '../Products/Products.css';
 
 

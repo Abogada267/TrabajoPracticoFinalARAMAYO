@@ -1,11 +1,10 @@
 /* eslint-disable no-unused-vars */
 import PropTypes from 'prop-types';
-import React, { useContext } from 'react';
-import { DataContext } from '../Context/DataContext';
 import '../Products/Products.css';
+import { pedirDatos } from '../helpers/pedirDatos';
 
 const Products = ({ products }) => {
-  const { buyProducts } = useContext(DataContext);
+  const { ItemListContainer } = pedirDatos(ItemListContainer);
 
   return (
     <div className="container">
@@ -18,7 +17,7 @@ const Products = ({ products }) => {
                 <div className="card-body">
                   <h5 className="card-title">{product.name}</h5>
                   <p className="card-text">${product.price}</p>
-                  <button className="btn btn-primary" onClick={() => buyProducts(product)}>Comprar</button>
+                  <button className="btn btn-primary" onClick={() => pedirDatos(product)}>Comprar</button>
                 </div>
               </div>
             </div>
